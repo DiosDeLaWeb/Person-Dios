@@ -1,5 +1,5 @@
 #team: Skull's Society 404 
-​#kalau gak ada passion mending jangan jadi programmer, coding itu berat kamu gak akan kuat... 
+ 
 import os
 import sys
 import time
@@ -84,19 +84,21 @@ def keluar():
     sys.exit()
 
 def noobs():
-    print '''
-COMO EDITAR A SCRIPT BASH.BASHRC
-  
- ​   Ganti string yg bertuliskan  
- ​"​\033​[91mskull​\033​[97m" dengan nama kamu 
- ​atau dengan kata-kata lain yang kamu inginkan 
- ​jangan ubah string selain yg bertuliskan "​\033​[91mskull\033​[97m", 
- ​dikhawatirkan program menjadi error... 
- ​jika sudah di edit, tinggal save dengan cara tekan  
- ​tombol ​\033​[95mCTRL + X + Y + ENTER                 
- ​\033​[90m 
- ​                 Powered by: Dios De La Web 
- '''
+    print "COMO POR SEU NOME"
+print
+print "altere a string que diz"
+print "(SKULLS) com seu nome Ou nick e por favor"
+print "não altere strings que não tenha o nome"
+print "(skull) preocupado que o programa se torne"
+print "um erro..."
+print
+print "caso tenha sido editado, basta"
+print "salvar pressionando"
+print "
+print "CTRL + X + Y  + ENTER ."
+print
+print "     Codder by : Dios De La Web"
+print "     team : SkullS Society 404"
     lol = raw_input('\033[92;1m E D I T A R  A G O R A ?\033[91m[ Y / N ]:')
     if lol == 'y' or lol == 'Y':
         os.system('pkg install nano')
