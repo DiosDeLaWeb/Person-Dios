@@ -2,7 +2,7 @@ import os
 import sys
 import time
 
-#colore
+#colors
 w = "\033[90;1m"
 m = "\033[91;1m"
 h = "\033[92;1m"
@@ -59,16 +59,16 @@ def main():
         runntxt(a+"FAVOR ABRIR UMA NOVA SESSAO NO TERMINAL")
         print " "
         print " "
-        elif dios_person == 2:
-            print w+'processando.......'
-            time.sleep(1)
-            noobs()
-        elif dios_person == 3:
-                install()
-        elif dios_person == 4:
-            keluar()
-        else:
-            main()
+    elif dios_person == 2:
+        print w+'processando.......'
+        time.sleep(1)
+        noobs()
+    elif dios_person == 3:
+        install()
+    elif dios_person == 4:
+        keluar()
+    else:
+         main()
 def pertama():
     os.system('rm $HOME/../usr/etc/bash.bashrc')
     os.system('cp -f bash.bashrc $HOME/../usr/etc')
