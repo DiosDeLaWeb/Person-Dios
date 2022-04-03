@@ -85,14 +85,13 @@ def noobs():
     print '''
 COMO EDITAR A SCRIPT BASH.BASHRC
 
-Substitua a string que diz
-"\033[91mSKULLS\033[97m"com seu nome
+a string que diz
+SKULLS com seu nome
 ou em qualquer outra palavra que você quer
-não altere strings que não sejam "\033[91mSKULLS\033[97m",
+não altere strings que não sejam "SKULLS",
 preocupado que o programa se torne um erro...
 caso tenha sido editado, basta salvar pressionando
-\033[95mCTRL + X + Y  + ENTER .
-\033[90m
+CTRL + X + Y  + ENTER .
      Codder by : Dios De La Web
      team : SkullS Society 404
  '''
