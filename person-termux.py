@@ -39,7 +39,7 @@ def banner():
     print s+"+---------------------------------------------+"
     print "\ra| Codder by :\rh Dios De La Web"
     print "\ra| github :\rh https://www.github.com/DiosDeLaWeb" 
-    print "\ra| Team :\rh SKULL'S SOCIETY 404")
+    print "\ra| Team :\rh SKULL'S SOCIETY 404"
     print s+" | +-----------------------------------------+"
     print "\rm| | \rm[\rs1\rm]\rk TERMUX EDIT PERSON      |"
     print "\rm| | \rm[\rs2\rm]\rk EDITAR NICK             |"
