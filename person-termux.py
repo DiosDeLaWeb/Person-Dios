@@ -41,9 +41,9 @@ def banner():
     dios ("\ra| github :\rh https://www.github.com/DiosDeLaWeb") 
     dios ("\ra| Team :\rh SKULL'S SOCIETY 404")
     print s+"| +-----------------------------------------+"
-    dios("\rm| | \rm[\rs1\rm]\rk TERMUX EDIT PERSON          |")
-    dios("\rm| | \rm[\rs2\rm]\rk COMO EDITAR                      |")
-    dios("\rm| | \rm[\rs3\rm]\rh Instale o pacote primeiro....      |")
+    dios("\rm| | \rm[\rs1\rm]\rk TERMUX EDIT PERSON      |")
+    dios("\rm| | \rm[\rs2\rm]\rk EDITAR NICK             |")
+    dios("\rm| | \rm[\rs3\rm]\rh INSTALE O PACOTE        |")
     print s+"+---+-----------------------------------------+"
     print m+" 4.Exit"
 def main():
@@ -84,21 +84,6 @@ def keluar():
     sys.exit()
 
 def noobs():
-    print "COMO POR SEU NOME"
-print
-print "altere a string que diz"
-print "(SKULLS) com seu nome Ou nick e por favor"
-print "não altere strings que não tenha o nome"
-print "(skull) preocupado que o programa se torne"
-print "um erro..."
-print
-print "caso tenha sido editado, basta"
-print "salvar pressionando"
-print "
-print "CTRL + X + Y  + ENTER ."
-print
-print "     Codder by : Dios De La Web"
-print "     team : SkullS Society 404"
     lol = raw_input('\033[92;1m E D I T A R  A G O R A ?\033[91m[ Y / N ]:')
     if lol == 'y' or lol == 'Y':
         os.system('pkg install nano')
