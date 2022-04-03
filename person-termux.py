@@ -35,15 +35,15 @@ def runntxt(lolz):
 def banner():
     os.system('clear')
     os.system('cowsay -f eyes "DIOS" | lolcat')
-    dios("\rp          DIOS PERSON SKULLS")
+    print "\rp          DIOS PERSON SKULLS"
     print s+"+---------------------------------------------+"
-    dios ("\ra| Codder by :\rh Dios De La Web")
-    dios ("\ra| github :\rh https://www.github.com/DiosDeLaWeb") 
-    dios ("\ra| Team :\rh SKULL'S SOCIETY 404")
-    print s+"| +-----------------------------------------+"
-    dios("\rm| | \rm[\rs1\rm]\rk TERMUX EDIT PERSON      |")
-    dios("\rm| | \rm[\rs2\rm]\rk EDITAR NICK             |")
-    dios("\rm| | \rm[\rs3\rm]\rh INSTALE O PACOTE        |")
+    print "\ra| Codder by :\rh Dios De La Web"
+    print "\ra| github :\rh https://www.github.com/DiosDeLaWeb" 
+    print "\ra| Team :\rh SKULL'S SOCIETY 404")
+    print s+" | +-----------------------------------------+"
+    print "\rm| | \rm[\rs1\rm]\rk TERMUX EDIT PERSON      |"
+    print "\rm| | \rm[\rs2\rm]\rk EDITAR NICK             |"
+    print "\rm| | \rm[\rs3\rm]\rh INSTALE O PACOTE        |"
     print s+"+---+-----------------------------------------+"
     print m+" 4.Exit"
 def main():
@@ -55,7 +55,7 @@ def main():
         runntxt(w+"...................")
         print " " 
         os.system('cowsay -f eyes "SKULLS" | lolcat')
-        os.system('toilet-f standard "SKULLS" -F gay')
+        os.system('toilet -f standard "SKULLS" -F gay')
         runntxt(h+"     S u c c e s s o...")
         print " "
         runntxt(a+"FAVOR ABRIR UMA NOVA SESSAO NO TERMINAL")
