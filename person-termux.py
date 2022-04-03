@@ -1,3 +1,5 @@
+#team: Skull's Society 404 
+​#kalau gak ada passion mending jangan jadi programmer, coding itu berat kamu gak akan kuat... 
 import os
 import sys
 import time
