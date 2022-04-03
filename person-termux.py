@@ -82,9 +82,8 @@ def keluar():
     sys.exit()
 
 def noobs():
-    print a+'''
-COMO EDITARSCRIPT BASH.BASHRC
-\033[97m
+    print '''
+COMO EDITAR A SCRIPT BASH.BASHRC
 
 Substitua a string que diz
 "\033[91mSKULLS\033[97m"com seu nome
