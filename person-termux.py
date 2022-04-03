@@ -4,7 +4,7 @@ import os
 import sys
 import time
 
-#colors
+#cores1
 w = "\033[90;1m"
 m = "\033[91;1m"
 h = "\033[92;1m"
@@ -13,6 +13,13 @@ b = "\033[94;1m"
 p = "\033[95;1m"
 a = "\033[96;1m"
 s = "\033[97;1m"
+
+#cores2
+Azul = '\033[94m'
+Verde = '\033[92m'
+Amarelo = '\033[93m'
+Vermelho = '\033[91m'
+Fim = '\033[0m'
 
 def dios(x):
     w = {'w':90, 'm':31, 'h':32, 'k':33, 'b':34, 'p':35, 'a':96, 's':97}
@@ -34,18 +41,19 @@ def runntxt(lolz):
 #banner
 def banner():
     os.system('clear')
-    os.system('cowsay -f eyes "DIOS" | lolcat')
-    print "\rp          DIOS PERSON SKULLS"
-    print s+"+---------------------------------------------+"
-    print "\ra| Codder by :\rh Dios De La Web"
-    print "\ra| github :\rh https://www.github.com/DiosDeLaWeb" 
-    print "\ra| Team :\rh SKULL'S SOCIETY 404"
-    print s+" | +-----------------------------------------+"
-    print "\rm| | \rm[\rs1\rm]\rk TERMUX EDIT PERSON      |"
-    print "\rm| | \rm[\rs2\rm]\rk EDITAR NICK             |"
-    print "\rm| | \rm[\rs3\rm]\rh INSTALE O PACOTE        |"
+    os.system('cowsay -f eyes "skulls" | lolcat')
+    os.system('toilet -f standard "SKULLS" -F gay')
+    print "          \033[92mDIOS PERSON SKULLS\033[0m"
+    print "+---------------------------------------------+"
+    print "| Codder by : \033[92mDios De La Web\033[0m"
+    print "| github : \033[92mhttps://www.github.com/DiosDeLaWeb\033[0m" 
+    print "| Team : \033[92mSKULL'S SOCIETY 404\033[0m"
+    print "| +-----------------------------------------+"
+    print "| | \033[92m[\033[0m 1 \033[92m]\033[0m \033[93mTERMUX EDIT PERSON\033[0m                   |"
+    print "| | \033[92m[\033[0m 2 \033[92m]\033[0m \033[93mEDITAR NICK\033[0m                          |"
+    print "| | \033[92m[\033[0m 3 \033[92m]\033[0m \033[93mINSTALE O PACOTE\033[0m                     |"
     print s+"+---+-----------------------------------------+"
-    print m+" 4.Exit"
+    print m+" [ 4 ].Exit"
 def main():
     banner()
     print a+",~~~~~",h+"[",s+"numero:",h+"]"
