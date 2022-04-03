@@ -84,15 +84,16 @@ def keluar():
 def noobs():
     print '''
 COMO EDITAR A SCRIPT BASH.BASHRC
-
-a string que diz
-SKULLS com seu nome Ou nick e por favor
-não altere strings que não tenha o nome skull
-preocupado que o programa se torne um erro...
-caso tenha sido editado, basta salvar pressionando
-CTRL + X + Y  + ENTER .
-     Codder by : Dios De La Web
-     team : SkullS Society 404
+  
+ ​   Ganti string yg bertuliskan  
+ ​"​\033​[91mskull​\033​[97m" dengan nama kamu 
+ ​atau dengan kata-kata lain yang kamu inginkan 
+ ​jangan ubah string selain yg bertuliskan "​\033​[91mskull\033​[97m", 
+ ​dikhawatirkan program menjadi error... 
+ ​jika sudah di edit, tinggal save dengan cara tekan  
+ ​tombol ​\033​[95mCTRL + X + Y + ENTER                 
+ ​\033​[90m 
+ ​                 Powered by: Dios De La Web 
  '''
     lol = raw_input('\033[92;1m E D I T A R  A G O R A ?\033[91m[ Y / N ]:')
     if lol == 'y' or lol == 'Y':
