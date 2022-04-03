@@ -86,9 +86,8 @@ def noobs():
 COMO EDITAR A SCRIPT BASH.BASHRC
 
 a string que diz
-SKULLS com seu nome
-Ou nick e por favor
-não altere strings que não sejam "SKULLS",
+SKULLS com seu nome Ou nick e por favor
+não altere strings que não tenha o nome skull
 preocupado que o programa se torne um erro...
 caso tenha sido editado, basta salvar pressionando
 CTRL + X + Y  + ENTER .
