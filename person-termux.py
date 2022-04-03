@@ -41,7 +41,7 @@ def runntxt(lolz):
 #banner
 def banner():
     os.system('clear')
-# os.system('cowsay -f eyes "skulls" | lolcat')
+    os.system('cowsay -f eyes "skulls" | lolcat')
     os.system('toilet -f standard "SKULLS" -F gay')
     print "          \033[92mDIOS PERSON SKULLS\033[0m"
     print "+---------------------------------------------+"
