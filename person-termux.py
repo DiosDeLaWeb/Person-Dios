@@ -29,8 +29,8 @@ def dios(x):
         x = x.replace('\r0','\033[0m')
         print (x)
 
-#os.system('pkg install ruby cowsay toilet figlet')
-#os.system('gem install lolcat')
+os.system('pkg install ruby cowsay toilet figlet')
+os.system('gem install lolcat')
 
 def runntxt(lolz):
     for noobs in lolz:
